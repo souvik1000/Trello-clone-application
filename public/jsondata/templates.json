@@ -1,0 +1,72 @@
+[
+  {
+    "name": "nature",
+    "submenu": [
+      {
+        "name": "nature_template_1",
+        "title": "n-t-1",
+        "src": "static/nature/n-t-1.jpg"
+      },
+      {
+        "name": "nature_template_2",
+        "title": "n-t-2",
+        "src": "static/nature/n-t-2.jpg"
+      },
+      {
+        "name": "nature_template_3",
+        "title": "n-t-3",
+        "src": "static/nature/n-t-3.jpg"
+      },
+      {
+        "name": "nature_template_4",
+        "title": "n-t-4",
+        "src": "static/nature/n-t-4.jpg"
+      },
+      {
+        "name": "nature_template_5",
+        "title": "n-t-5",
+        "src": "static/nature/n-t-5.jpg"
+      },
+      {
+        "name": "nature_template_6",
+        "title": "n-t-6",
+        "src": "static/nature/n-t-6.jpg"
+      }
+    ]
+  },
+  {
+    "name": "business",
+    "submenu": [
+      {
+        "name": "business_template_1",
+        "title": "b-t-1",
+        "src": "static/business/b-t-1.jpg"
+      },
+      {
+        "name": "business_template_2",
+        "title": "b-t-2",
+        "src": "static/business/b-t-2.jpg"
+      },
+      {
+        "name": "business_template_3",
+        "title": "b-t-3",
+        "src": "static/business/b-t-3.jpg"
+      },
+      {
+        "name": "business_template_4",
+        "title": "b-t-4",
+        "src": "static/business/b-t-4.jpg"
+      },
+      {
+        "name": "business_template_5",
+        "title": "b-t-5",
+        "src": "static/business/b-t-5.jpg"
+      },
+      {
+        "name": "business_template_6",
+        "title": "b-t-6",
+        "src": "static/business/b-t-6.jpg"
+      }
+    ]
+  }
+]

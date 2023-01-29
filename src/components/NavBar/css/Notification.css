@@ -1,0 +1,15 @@
+.notification-header {
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.notification-text {
+  font-size: 14px;
+  color: #555555;
+}
+
+.allow-notification {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}

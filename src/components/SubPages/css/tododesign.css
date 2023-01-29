@@ -1,0 +1,64 @@
+.vh-90 {
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.vh-90::-webkit-scrollbar {
+  display: none;
+}
+
+.todorow {
+  /* background-image: url("static/nature/n-t-6.jpg"); */
+  opacity: 0.9;
+  background-size: cover;
+  background-position: center;
+}
+
+.todo {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.todotext {
+  color: white;
+  text-shadow: 2px 2px #64648d;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.tododiv {
+  width: 100%;
+  margin: auto;
+  height: 400px;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.tododiv::-webkit-scrollbar {
+  display: none;
+}
+
+.dataval {
+  background-color: rgb(231, 187, 187);
+  opacity: 1;
+  border-radius: 10px;
+  border: 0px;
+}
+
+.crdmrgn {
+  margin: 10px;
+}
+
+/* Media Query */
+@media only screen and (max-width: 990px) {
+  .coleff {
+    margin: 10px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .tododiv {
+    height: 510px;
+  }
+}

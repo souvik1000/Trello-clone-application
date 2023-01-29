@@ -1,0 +1,53 @@
+.vh-90 {
+  height: 660px;
+}
+
+.h-1000 {
+  height: 595px;
+  /* overflow-y: auto; */
+  scrollbar-width: none;
+  overflow: auto;
+}
+
+.h-1000::-webkit-scrollbar {
+  display: none;
+}
+
+.linktab {
+  margin: 10px;
+  padding: 10px;
+  list-style: none;
+}
+
+/* Home Action Design */
+hr {
+  padding: 0.5px;
+  opacity: 1;
+}
+
+.action-heading {
+  margin: 0px auto 5px 0px;
+}
+
+.action-icon {
+  margin: auto 10px auto 0px;
+}
+
+/* Media Query */
+
+@media only screen and (max-width: 990px) {
+  .vh-90 {
+    height: 500px;
+  }
+
+  .h-95::-webkit-scrollbar {
+    display: none;
+  }
+
+  .h-95 {
+    /* overflow-y: auto; */
+    scrollbar-width: none;
+    overflow: auto;
+    height: 440px;
+  }
+}

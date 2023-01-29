@@ -1,0 +1,12 @@
+.footer-section {
+  background-color: var(--primary-light);
+  color: #ffffff;
+}
+
+footer div .Link {
+  color: var(--inverse-light);
+}
+
+/* footer li .Link {
+  color: var(--inverse-light);
+} */

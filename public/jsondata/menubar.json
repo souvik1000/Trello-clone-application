@@ -1,0 +1,45 @@
+[
+  {
+    "name": "boards",
+    "label": "Boards",
+    "icon": "label_outline",
+    "link": "/boards"
+  },
+  {
+    "name": "templates",
+    "label": "Templates",
+    "icon": "insert_chart",
+    "link": "/templates"
+  },
+  {
+    "name": "home",
+    "label": "Home",
+    "icon": "image_aspect_ratio",
+    "link": "/home"
+  },
+  {
+    "name": "workspaces",
+    "label": "My Workspace",
+    "icon": "wrap_text",
+    "subMenu": [
+      {
+        "name": "workspaces.boards",
+        "label": "Boards",
+        "icon": "label_outline",
+        "link": "/boards"
+      },
+      {
+        "name": "workspaces.members",
+        "label": "Members",
+        "icon": "people",
+        "link": "/members"
+      },
+      {
+        "name": "workspaces.settings",
+        "label": "Settings",
+        "icon": "settings",
+        "link": "/settings"
+      }
+    ]
+  }
+]

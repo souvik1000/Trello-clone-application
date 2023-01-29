@@ -1,0 +1,262 @@
+/* General Tag Design */
+.bg-img {
+  background-position: center;
+  background-size: cover;
+  border-radius: 3px;
+  box-shadow: 0 7px 15px rgba(0, 0, 0, 0.15);
+}
+
+.btn-complete {
+  width: 95%;
+  /* margin: auto; */
+  border-radius: 3px;
+}
+
+/* EmptyState Design */
+
+.EmptyState {
+  padding-top: var(--spacing-5);
+}
+
+/* Toast Design */
+
+.toastcontainer {
+  /* position-absolute p-3 top-0 start-50  */
+  position: fixed;
+  top: 0;
+  right: 0;
+  transform: translate(-5%, 2%);
+  /* transition-duration: 1000; */
+}
+
+/* Board page */
+#boards {
+  width: 90%;
+  margin: auto;
+  /* border: 1px solid; */
+}
+
+#templates .heading {
+  font-size: 1.4rem;
+}
+
+#templates {
+  padding-bottom: 20px;
+  /* border: 1px solid red; */
+}
+
+.link-text:hover {
+  text-decoration: underline;
+  color: deeppink;
+  cursor: pointer;
+}
+
+.Text {
+  font-size: var(--font-size-m);
+  padding-left: 5px;
+}
+
+.Icon {
+  vertical-align: text-bottom;
+}
+
+.sub-template {
+  width: 175px;
+  height: 90px;
+  margin: auto;
+  background-size: cover;
+  background-position: center;
+  /* text-align: center; */
+  margin-top: 10px;
+  padding: 10px;
+}
+
+.sub-temp-section {
+  color: white;
+}
+
+.TempHD {
+  display: inline;
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.69);
+  padding: 3px 8px;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 16px;
+  color: #172b4d;
+}
+
+.btn-style {
+  background-color: var(--primary-light);
+  /* position: absolute; */
+  color: white;
+  float: right;
+  margin-top: 35px;
+}
+
+#workspace-view {
+  margin: auto;
+  /* border: 1px solid red; */
+  padding: 10px 0px;
+}
+
+.sub-workspace {
+  width: 175px;
+  height: 90px;
+  background-size: cover;
+  background-position: center;
+  /* text-align: center; */
+  margin: 10px 10px;
+  padding: 10px;
+}
+
+.crt-new {
+  width: 175px;
+  height: 90px;
+  background-color: #091e420a;
+  border: none;
+  box-shadow: none;
+  color: #172b4d;
+  font-weight: 400;
+  text-align: center;
+}
+
+.crt-new:hover {
+  box-shadow: var(--shadow-s);
+  cursor: pointer;
+}
+
+.data {
+  /* border: 1px solid; */
+  margin-top: 25px;
+  color: #172b4d;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+/* Templates Page */
+
+#nature-template {
+  width: 90%;
+  margin: auto;
+}
+
+.mpd {
+  padding: 25px 5px;
+}
+
+.temp-heading {
+  font-size: var(--font-size-l);
+}
+
+.crdgrp {
+  width: 100%;
+  margin: auto;
+  /* display: flex;
+  flex-flow: row wrap; */
+}
+
+.crdsubgrp {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.cards {
+  margin: 3px auto;
+  border-radius: 5px;
+}
+
+.c-img {
+  width: 225px;
+  height: 100px;
+  border-radius: 5px 5px 0px 0px;
+  /* height: 150px; */
+}
+
+.card-name {
+  padding: 10px 0px;
+  margin: 0px 0px;
+  text-align: center;
+}
+
+/* Border Design */
+
+.board-popover {
+  width: 300px;
+  height: 540px;
+  overflow: auto;
+  scrollbar-width: none;
+}
+
+.board-popover::-webkit-scrollbar {
+  display: none;
+}
+
+.activate {
+  background-color: var(--primary-light);
+  color: var(--white);
+}
+
+.maindiv-bd-popover {
+  width: 90%;
+  margin: auto;
+}
+
+.heading-popover {
+  text-align: center;
+  color: #555;
+  font-size: 1.01rem;
+  font-weight: 600;
+  margin: 10px auto;
+}
+
+.image-preview {
+  width: 71%;
+  margin: 30px auto 20px auto;
+}
+
+.image-preview img {
+  padding: 5px 0px 0px 2px;
+  /* padding: auto; */
+}
+
+.bg-select-hd {
+  color: #555;
+  font-size: 0.9rem;
+  font-weight: 600;
+  margin: 10px auto;
+}
+
+.outside {
+  width: 90%;
+  margin: 10px auto;
+}
+
+.sub-image-preview {
+  width: 80px;
+  height: 50px;
+  margin: 1px 0.5px;
+}
+
+.mg-td {
+  margin: 50px auto 25px auto;
+}
+
+/* Media Query */
+@media only screen and (max-width: 990px) {
+  #boards {
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid; */
+  }
+
+  #templates .heading {
+    font-size: var(--font-size-l);
+    text-align: center;
+  }
+
+  .temp-heading {
+    font-size: var(--font-size-m);
+  }
+}
